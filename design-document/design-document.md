@@ -1,4 +1,6 @@
-# **Introduction and Goals**
+# **Overview and Goals**
+
+Note: [open the PDF version](design-document.pdf) if this is not rendering properly or is missing images.
 
 ## **Requirements Overview**
 
@@ -54,7 +56,7 @@ Our general approach will be to build this as a microservice, which will interna
 
 ## **Overall System**
 
-![checkoutservice.drawio.svg](checkoutservice.drawio.svg)
+![checkoutservice_bg.drawio.svg](checkoutservice_bg.drawio.svg)
 
 
 ### **Checkout**
@@ -103,7 +105,7 @@ This will influence the decision to represent the rental terms separately from t
 
 All this said, with the information we have, this is a satisfactory representation of the data model as understood presently. It is subject to change based on conversations with Product (already a good reason for isolating the data layer using a repository class):
 
-![datamodel.drawio.svg](datamodel.drawio.svg)
+![datamodel_bg.drawio.svg](datamodel_bg.drawio.svg)
 
 # **Cross-cutting Concepts**
 
